@@ -1,0 +1,8 @@
+AUGMENTATION: True          # Veri artırma (döndürme, çevirme vb.) kullanılsın mı
+IMAGE_SIZE: [224, 224, 3]  # Girdi görüntü boyutu (VGG16 için standart)
+BATCH_SIZE: 16             # Modelin aynı anda işleyeceği görüntü sayısı
+INCLUDE_TOP: False         # VGG16'nın hazır sınıflandırma katmanları çıkarılsın mı
+EPOCHS: 1                  # Veri setinin model tarafından kaç kez görüleceği
+CLASSES: 2                 # Sınıf sayısı (ör: sağlıklı / hasta)
+WEIGHTS: imagenet          # Önceden ImageNet ile eğitilmiş ağırlıklar
+LEARNING_RATE: 0.01        # Modelin öğrenme hızı
